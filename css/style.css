@@ -1,0 +1,279 @@
+body {
+  font-family: Lato, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+  color: #303030;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.hashtag {
+  color: #f2c03f;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.48px;
+}
+
+.main-header {
+  color: #fff;
+  background-color: transparent;
+}
+
+.lang-btn {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.32px;
+}
+
+.promo {
+  color: #fff;
+  background-image: linear-gradient(
+    121deg,
+    rgba(101, 78, 163, 0.87) 35.26%,
+    rgba(95, 75, 139, 0.87) 88.11%
+  );
+}
+
+.promo-title {
+  font-family: "Playfair Display";
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 110%; /* 79.2px */
+  letter-spacing: 2.88px;
+}
+
+.promo-info-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  opacity: 0.74;
+}
+
+.btn {
+  color: #303030;
+  background-color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1.44px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 2px;
+  border: 1px solid #d0d7dd;
+}
+
+.promo-btn {
+  border: none;
+}
+
+.socials {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pagination {
+  opacity: 0.87;
+}
+
+.current-page {
+  font-weight: 700;
+}
+
+.main-nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav-link {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.36px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.section-title {
+  margin: 0;
+  color: #1c1515;
+  font-family: "Playfair Display";
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 126.635%; /* 91.177px */
+  letter-spacing: 2.16px;
+}
+
+.members-style {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  opacity: 0.32;
+}
+
+.members-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.designer-name {
+  font-family: "Playfair Display";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 110%; /* 26.4px */
+  letter-spacing: 0.72px;
+}
+
+.designer-country {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  opacity: 0.32;
+}
+
+.designer-socials {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.jury-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.jury-name {
+  font-family: "Playfair Display";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 110%; /* 44px */
+  letter-spacing: 1.2px;
+}
+
+.jury-country {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  opacity: 0.32;
+}
+
+.jury-position {
+  opacity: 0.64;
+}
+
+.jury-socials {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.payments-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tickets-column p {
+  opacity: 0.87;
+}
+
+.tickets-column a {
+  font-size: 21px;
+  font-weight: 700;
+  background: linear-gradient(
+    121deg,
+    rgba(101, 78, 163, 0.87) 35.26%,
+    rgba(95, 75, 139, 0.87) 88.11%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+th {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+td:first-child {
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.87;
+}
+
+.marked-btn {
+  color: #fff;
+  background-image: linear-gradient(
+    121deg,
+    rgba(101, 78, 163, 0.87) 35.26%,
+    rgba(95, 75, 139, 0.87) 88.11%
+  );
+  border: none;
+}
+
+.contacts-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contacts-item h3 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px; /* 150% */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  opacity: 0.32;
+}
+
+address {
+  font-style: normal;
+}
+
+.contacts-item a {
+  color: #303030;
+  text-decoration: none;
+}
+
+.contacts-socials {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.form-lead {
+  font-size: 40px;
+}
+
+.form-group label {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px; /* 150% */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  opacity: 0.32;
+}
+
+::placeholder,
+textarea {
+  opacity: 0.5;
+}
