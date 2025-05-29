@@ -17,13 +17,12 @@
 
 <body>
   <header class="main-header">
-    <div class="logo">
-      <a href="index.html" class="logo-link">
-        <img src="img/logo.svg" alt="Логотип Blade agency" class="logo-image">
-      </a>
-    </div>
-    <div class="hashtag header-hashtag">#bladefashion2019</div>
-    <nav class="main-nav">
+    <nav class="main-nav container">
+      <div class="logo">
+        <a href="index.html" class="logo-link">
+          <img src="img/logo.svg" alt="Логотип Blade agency" class="logo-image">
+        </a>
+      </div>
       <ul class="main-nav-list">
         <li class="main-nav-item">
           <a href="#promo" class="main-nav-link">Главная</a>
@@ -45,387 +44,421 @@
         <li><button class="lang-btn lang-ru" type="button">Рус</button></li>
         <li><button class="lang-btn lang-en" type="button">Англ</button></li>
       </ul>
+    </nav>
   </header>
   <main>
     <h1 class="page-title visually-hidden">Blade agency</h1>
-    <section class="promo">
-      <div class="pagination">
-        <span class="current-page">01</span>/<span class="pages">05</span>
-      </div>
-      <p class="hashtag promo-hashtag">#bladefashion2019</p>
-      <h2 class="promo-title">Показ лучших молодых дизайнеров России</h2>
-      <ul class="promo-info-list">
-        <li class="promo-info-item"><time class="promo-date" datetime="2025-11-18">18 ноября</time>
-          <span class="promo-time">12<sup>30</sup> – 20<sup>00</sup></span>
-        </li>
-        <li class="promo-info-item"><span class="promo-city">Москва</span>
-          <span class="promo-place">Лофт-центр «Эдем»</span>
-        </li>
-        <li class="promo-info-item"><span class="promo-award">
-            Победитель едет
-            на показ Blade в Париж!
-          </span></li>
-      </ul>
-      <a href="#tickets" class="btn promo-btn">бронь билета</a>
-      <div class="promo-image">
-        <picture>
-          <!-- <source srcset="img/promo.webp" type="image/webp"> -->
-          <img src="img/promo_img.png" alt="Промо-изображение показа Blade agency" width="767" height="881">
-        </picture>
-        <div class="slider-controls">
-          <button type="button"><span class="visually-hidden">Previous</span></button>
-          <button type="button"><span class="visually-hidden">Next</span></button>
+    <section class="promo" id="promo">
+      <div class="container promo-container">
+        <div class="pagination">
+          <span class="current-page">01</span>/<span class="pages">05</span>
         </div>
-      </div>
-      <ul class="socials">
-        <li class="socials-item">
-          <a class="socials-link" href="#">
-            <span class="visually-hidden">Facebook</span>
-            <img src="img/icon_fb.svg" width="18" height="35" alt="Facebook logo">
-          </a>
-        </li>
-        <li class="socials-item">
-          <a class="socials-link" href="#">
-            <span class="visually-hidden">Instagram</span>
-            <img src="img/icon_insta.svg" width="34" height="34" alt="Instagram logo">
-          </a>
-        </li>
-        <li class="socials-item"><a class="socials-link" href="#">
-            <span class="visually-hidden">Twitter</span>
-            <img src="img/icon_twitter.svg" width="35" height="29" alt="Twitter logo">
-          </a>
-        </li>
-      </ul>
-    </section>
-    <section class="members">
-      <div class="pagination">
-        <span class="current-page">02</span>/<span class="pages">05</span>
-      </div>
-      <h2 class="section-title">Участники</h2>
-      <div class="members-slider">
-        <button class="members-slider-btn members-slider-btn-prev" type="button"><span
-            class="visually-hidden">Previous</span></button>
-        <ul class="members-list">
-          <li class="members-item">
-            <p class="members-style">классика, нуар</p>
-            <picture>
-              <!-- <source srcset="img/members_1.webp" type="image/webp"> -->
-              <img src="img/members_1.jpg" alt="Участник 1" width="448" height="580" class="members-image">
-            </picture>
-            <div class="designer">
-              <img src="img/designer_1.jpg" width="64" height="64" alt="Фото Дэвида Робинсона" class="designer-image">
-              <h3 class="designer-name">Дэвид Робинсон</h3>
-              <p class="designer-country">США</p>
-              <ul class="designer-socials">
-                <li class="designer-socials-item">
-                  <a class="socials-link" href="#"><span class="visually-hidden">Instagram</span></a>
-                </li>
-                <li class="designer-socials-item">
-                  <a class="socials-link" href="#"><span class="visually-hidden">Facebook</span></a>
-                </li>
-                <li class="designer-socials-item">
-                  <a class="socials-link" href="#"><span class="visually-hidden">Twitter</span></a>
-                </li>
-              </ul>
-            </div>
-            <div class="slider-controls">
-              <button type="button"><span class="visually-hidden">Previous</span></button>
-              <button type="button"><span class="visually-hidden">Next</span></button>
-            </div>
-          </li>
-          <li class="members-item">
-            <p class="members-style">авангард, имрессионизм</p>
-            <picture>
-              <!-- <source srcset="img/members_2.webp" type="image/webp"> -->
-              <img src="img/members_2.jpg" alt="Участник 2" width="448" height="580" class="members-image">
-            </picture>
-            <div class="designer">
-              <img src="img/designer_2.jpg" width="64" height="64" alt="Фото Келли Макдональд" class="designer-image">
-              <h3 class="designer-name">Келли Макдональд</h3>
-              <p class="designer-country">Ирландия</p>
-              <ul class="designer-socials">
-                <li class="designer-socials-item">
-                  <a class="socials-link" href="#">
-                    <span class="visually-hidden">Instagram</span>
-                    <img src="img/icon_insta.svg" alt="Instagram logo">
-                  </a>
-                </li>
-                <li class="designer-socials-item">
-                  <a class="socials-link" href="#">
-                    <span class="visually-hidden">Facebook</span>
-                    <img src="img/icon_fb.svg" alt="Facebook logo">
-                  </a>
-                </li>
-                <li class="designer-socials-item">
-                  <a class="socials-link" href="#">
-                    <span class="visually-hidden">Twitter</span>
-                    <img src="img/icon_twitter.svg" alt="Twitter logo">
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div class="slider-controls">
-              <button type="button"><span class="visually-hidden">Previous</span></button>
-              <button type="button"><span class="visually-hidden">Next</span></button>
-            </div>
-          </li>
-          <li class="members-item">
-            <p class="members-style">эклектика, экотренд</p>
-            <picture>
-              <!-- <source srcset="img/members_3.webp" type="image/webp"> -->
-              <img src="img/members_3.jpg" alt="Участник 3" width="448" height="580" class="members-image">
-            </picture>
-            <div class="designer">
-              <img src="img/designer_3.jpg" width="64" height="64" alt="Фото Костаса Папаниколау"
-                class="designer-image">
-              <h3 class="designer-name">Костас Папаниколау</h3>
-              <p class="designer-country">Греция</p>
-              <ul class="designer-socials">
-                <li class="designer-socials-item">
-                  <a class="socials-link" href="#">
-                    <span class="visually-hidden">Instagram</span>
-                    <img src="img/icon_insta.svg" alt="Instagram logo">
-                  </a>
-                </li>
-                <li class="designer-socials-item">
-                  <a class="socials-link" href="#">
-                    <span class="visually-hidden">Facebook</span>
-                    <img src="img/icon_fb.svg" alt="Facebook logo">
-                  </a>
-                </li>
-                <li class="designer-socials-item">
-                  <a class="socials-link" href="#">
-                    <span class="visually-hidden">Twitter</span>
-                    <img src="img/icon_twitter.svg" alt="Twitter logo">
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div class="slider-controls">
-              <button type="button"><span class="visually-hidden">Previous</span></button>
-              <button type="button"><span class="visually-hidden">Next</span></button>
-            </div>
-          </li>
-        </ul>
-        <button class="members-slider-btn members-slider-btn-next" type="button"><span
-            class="visually-hidden">Next</span></button>
-      </div>
-    </section>
-    <section class="jury">
-      <div class="pagination">
-        <span class="current-page">03</span>/<span class="pages">05</span>
-      </div>
-      <h2 class="section-title">Судьи BFW`19</h2>
-      <div class="jury-slider">
-        <button class="jury-slider-btn jury-slider-btn-prev" type="button"><span class="visually-hidden">Previous</span>
-        </button>
-        <ul class="jury-list">
-          <li class="jury-item">
-            <img src="img/judge_1.jpg" width="454" height="382" alt="Судья 1" class="jury-image">
-            <h3 class="jury-name">Давис Бертанс</h3>
-            <p class="jury-country">Литва</p>
-            <p class="jury-position">Владелец модного дома в Литве. Судья показов young blood Vilnus.</p>
-            <ul class="jury-socials">
-              <li class="jury-socials-item">
-                <a class="socials-link" href="#">
-                  <span class="visually-hidden">Facebook</span>
-                  <img src="img/icon_fb.svg" alt="Facebook logo">
-                </a>
-              </li>
-              <li class="jury-socials-item">
-                <a class="socials-link" href="#">
-                  <span class="visually-hidden">Twitter</span>
-                  <img src="img/icon_twitter.svg" alt="Twitter logo">
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li class="jury-item">
-            <img src="img/judge_2.jpg" width="454" height="382" alt="Судья 2" class="jury-image">
-            <h3 class="jury-name">Георгий Рубильников</h3>
-            <p class="jury-country">Россия</p>
-            <p class="jury-position">Дизайнер, работающий с Gucci, владелец салона в Санкт-Петербурге.</p>
-            <ul class="jury-socials">
-              <li class="jury-socials-item">
-                <a class="socials-link" href="#">
-                  <span class="visually-hidden">Instagram</span>
-                  <img src="img/icon_insta.svg" alt="Instagram logo">
-                </a>
-              </li>
-              <li class="jury-socials-item">
-                <a class="socials-link" href="#">
-                  <span class="visually-hidden">Facebook</span>
-                  <img src="img/icon_fb.svg" alt="Facebook logo">
-                </a>
-              </li>
-              <li class="jury-socials-item">
-                <a class="socials-link" href="#">
-                  <span class="visually-hidden">Twitter</span>
-                  <img src="img/icon_twitter.svg" alt="Twitter logo">
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li class="jury-item">
-            <img src="img/judge_3.jpg" width="454" height="382" alt="Судья 3" class="jury-image">
-            <h3 class="jury-name">Давид Гегенешвили</h3>
-            <p class="jury-country">Грузия</p>
-            <p class="jury-position">Создатель Georgia Runway Project. Главный судья на young blood Moscow.</p>
-            <ul class="jury-socials">
-              <li class="jury-socials-item">
-                <a class="socials-link" href="#">
-                  <span class="visually-hidden">Instagram</span>
-                  <img src="img/icon_insta.svg" alt="Instagram logo">
-                </a>
-              </li>
-              <li class="jury-socials-item">
-                <a class="socials-link" href="#">
-                  <span class="visually-hidden">Facebook</span>
-                  <img src="img/icon_fb.svg" alt="Facebook logo">
-                </a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-        <button class="jury-slider-btn jury-slider-btn-next" type="button"><span
-            class="visually-hidden">Next</span></button>
-      </div>
-    </section>
-    <section class="tickets">
-      <div class="pagination">
-        <span class="current-page">04</span>/<span class="pages">05</span>
-      </div>
-      <h2 class="section-title">Билеты</h2>
-      <div class="tickets-column">
-        <p>Вы можете приобрести билеты на Blade Fashion Week на нашем сайте: достаточно выбрать один из типов билетов (в
-          зависимости от предлагаемых опций) и произвести оплату онлайн. Мы принимаем оплату:</p>
-        <ul class="payments-list">
-          <li class="payments-item"><img class="payments-logo" src="img/visa_logo.png" alt=""></li>
-          <li class="payments-item"><img class="payments-logo" src="img/pay_logo.png" alt=""></li>
-          <li class="payments-item"><img class="payments-logo" src="img/mastercard_logo.png" alt=""></li>
-          <li class="payments-item"><img class="payments-logo" src="img/paypal_logo.png" alt=""></li>
-        </ul>
-        <p>По всем вопросам, связанным с покупкой, возвратом или предлагаемыми опциями, вы можете обратиться к нашему
-          консультанту по номеру:</p>
-        <a href="tel:+79244567890">+7 (924) 456 78 90</a>
-      </div>
-      <table>
-        <thead>
-          <tr>
-            <th></th>
-            <th>Зритель</th>
-            <th>Оптимум</th>
-            <th>VIP</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Пакет гостя форума</td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Церемония открытия</td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Вход на показ</td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Возможность голосовать</td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Доступ за кулисы</td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Эксклюзив от кутюрье</td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td><a href="#contacts" class="btn tickets-btn">Купить</a></td>
-            <td><a href="#contacts" class="btn tickets-btn marked-btn">Купить</a></td>
-            <td><a href="#contacts" class="btn tickets-btn">Купить</a></td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-  </main>
-  <footer class="main-footer">
-    <div class="pagination">
-      <span class="current-page">05</span>/<span class="pages">05</span>
-    </div>
-    <h2 class="section-title footer-title">Свяжитесь с нами</h2>
-    <div class="footer-column">
-      <ul class="contacts-list">
-        <li class="contacts-item">
-          <h3>офис продаж</h3>
-          <address>363561, Москва ул. Пушкина 17/1</address>
-        </li>
-        <li class="contacts-item">
-          <h3>для связи</h3>
-          <a href="tel:+79244567890">+7 (924) 456 78 90</a>
-          <a href="mailto:bfw@gmail.com">bfw@gmail.com</a>
-        </li>
-        <li class="contacts-item">
-          <h3>подпишитесь</h3>
-          <ul class="contacts-socials">
-            <li class="contacts-socials-item">
-              <a class="socials-link" href="">
+        <p class="hashtag hashtag-promo">#bladefashion2019</p>
+        <div class="promo-column">
+          <h2 class="promo-title">Показ лучших молодых дизайнеров России</h2>
+          <ul class="promo-info-list">
+            <li class="promo-info-item"><time class="promo-date" datetime="2025-11-18">18 ноября</time>
+              <span class="promo-time">12<sup>30</sup> – 20<sup>00</sup></span>
+            </li>
+            <li class="promo-info-item"><span class="promo-city">Москва</span>
+              <span class="promo-place">Лофт-центр «Эдем»</span>
+            </li>
+            <li class="promo-info-item"><span class="promo-award">
+                Победитель едет
+                на показ Blade в Париж!
+              </span></li>
+          </ul>
+          <a href="#tickets" class="btn promo-btn">бронь билета</a>
+          <ul class="socials">
+            <li class="socials-item">
+              <a class="socials-link" href="#">
                 <span class="visually-hidden">Facebook</span>
-                <img src="img/icon_fb.svg" width="10" height="19" alt="Facebook logo">
+                <img src="img/icon_fb.svg" width="18" height="35" alt="Facebook logo">
               </a>
             </li>
-            <li class="contacts-socials-item">
-              <a class="socials-link" href="">
+            <li class="socials-item">
+              <a class="socials-link" href="#">
                 <span class="visually-hidden">Instagram</span>
-                <img src="img/icon_insta.svg" width="18" height="18" alt="Instagram logo">
+                <img src="img/icon_insta.svg" width="34" height="34" alt="Instagram logo">
               </a>
             </li>
-            <li class="contacts-socials-item">
-              <a class="socials-link" href="">
+            <li class="socials-item"><a class="socials-link" href="#">
                 <span class="visually-hidden">Twitter</span>
-                <img src="img/icon_twitter.svg" width="19" height="16" alt="Twitter logo">
+                <img src="img/icon_twitter.svg" width="35" height="29" alt="Twitter logo">
               </a>
             </li>
           </ul>
-        </li>
-      </ul>
-      <picture>
-        <!-- <source srcset="img/footer_map.webp" type="image/webp"> -->
-        <img src="img/map.png" alt="Адрес Blade agency на карте" class="footer-map" width="810" height="462">
-      </picture>
+        </div>
+        <div class="promo-image">
+          <picture>
+            <!-- <source srcset="img/promo.webp" type="image/webp"> -->
+            <img src="img/promo_img.png" alt="Промо-изображение показа Blade agency" width="767" height="881">
+          </picture>
+          <div class="slider-controls promo-slider-controls">
+            <button type="button"><span class="visually-hidden">Previous</span></button>
+            <button type="button"><span class="visually-hidden">Next</span></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="members" id="members">
+      <div class="container members-container">
+        <div class="pagination">
+          <span class="current-page">02</span>/<span class="pages">05</span>
+        </div>
+        <p class="hashtag  section-hashtag">#bladefashion2019</p>
+        <h2 class="section-title">Участники</h2>
+        <div class="members-slider">
+          <button class="members-slider-btn members-slider-btn-prev" type="button"><span
+              class="visually-hidden">Previous</span></button>
+          <ul class="members-list">
+            <li class="members-item">
+              <p class="members-style">классика, нуар</p>
+              <picture>
+                <!-- <source srcset="img/members_1.webp" type="image/webp"> -->
+                <img src="img/members_1.jpg" alt="Участник 1" width="448" height="580" class="members-image">
+              </picture>
+              <div class="designer">
+                <img src="img/designer_1.jpg" width="64" height="64" alt="Фото Дэвида Робинсона" class="designer-image">
+                <h3 class="designer-name">Дэвид Робинсон</h3>
+                <p class="designer-country">США</p>
+                <ul class="designer-socials">
+                  <li class="designer-socials-item">
+                    <a class="socials-link" href="#">
+                      <span class="visually-hidden">Instagram</span>
+                      <img src="img/icon_insta.svg" alt="Instagram logo">
+                    </a>
+                  </li>
+                  <li class="designer-socials-item">
+                    <a class="socials-link" href="#">
+                      <span class="visually-hidden">Facebook</span>
+                      <img src="img/icon_fb.svg" alt="Facebook logo">
+                    </a>
+                  </li>
+                  <li class="designer-socials-item">
+                    <a class="socials-link" href="#">
+                      <span class="visually-hidden">Twitter</span>
+                      <img src="img/icon_twitter.svg" alt="Twitter logo">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="slider-controls members-slider-controls">
+                <button type="button"><span class="visually-hidden">Previous</span></button>
+                <button type="button"><span class="visually-hidden">Next</span></button>
+              </div>
+            </li>
+            <li class="members-item">
+              <p class="members-style">авангард, имрессионизм</p>
+              <picture>
+                <!-- <source srcset="img/members_2.webp" type="image/webp"> -->
+                <img src="img/members_2.jpg" alt="Участник 2" width="448" height="580" class="members-image">
+              </picture>
+              <div class="designer">
+                <img src="img/designer_2.jpg" width="64" height="64" alt="Фото Келли Макдональд" class="designer-image">
+                <h3 class="designer-name">Келли Макдональд</h3>
+                <p class="designer-country">Ирландия</p>
+                <ul class="designer-socials">
+                  <li class="designer-socials-item">
+                    <a class="socials-link" href="#">
+                      <span class="visually-hidden">Instagram</span>
+                      <img src="img/icon_insta.svg" alt="Instagram logo">
+                    </a>
+                  </li>
+                  <li class="designer-socials-item">
+                    <a class="socials-link" href="#">
+                      <span class="visually-hidden">Facebook</span>
+                      <img src="img/icon_fb.svg" alt="Facebook logo">
+                    </a>
+                  </li>
+                  <li class="designer-socials-item">
+                    <a class="socials-link" href="#">
+                      <span class="visually-hidden">Twitter</span>
+                      <img src="img/icon_twitter.svg" alt="Twitter logo">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="slider-controls members-slider-controls">
+                <button type="button"><span class="visually-hidden">Previous</span></button>
+                <button type="button"><span class="visually-hidden">Next</span></button>
+              </div>
+            </li>
+            <li class="members-item">
+              <p class="members-style">эклектика, экотренд</p>
+              <picture>
+                <!-- <source srcset="img/members_3.webp" type="image/webp"> -->
+                <img src="img/members_3.jpg" alt="Участник 3" width="448" height="580" class="members-image">
+              </picture>
+              <div class="designer">
+                <img src="img/designer_3.jpg" width="64" height="64" alt="Фото Костаса Папаниколау"
+                  class="designer-image">
+                <h3 class="designer-name">Костас Папаниколау</h3>
+                <p class="designer-country">Греция</p>
+                <ul class="designer-socials">
+                  <li class="designer-socials-item">
+                    <a class="socials-link" href="#">
+                      <span class="visually-hidden">Instagram</span>
+                      <img src="img/icon_insta.svg" alt="Instagram logo">
+                    </a>
+                  </li>
+                  <li class="designer-socials-item">
+                    <a class="socials-link" href="#">
+                      <span class="visually-hidden">Facebook</span>
+                      <img src="img/icon_fb.svg" alt="Facebook logo">
+                    </a>
+                  </li>
+                  <li class="designer-socials-item">
+                    <a class="socials-link" href="#">
+                      <span class="visually-hidden">Twitter</span>
+                      <img src="img/icon_twitter.svg" alt="Twitter logo">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="slider-controls members-slider-controls">
+                <button type="button"><span class="visually-hidden">Previous</span></button>
+                <button type="button"><span class="visually-hidden">Next</span></button>
+              </div>
+            </li>
+          </ul>
+          <button class="members-slider-btn members-slider-btn-next" type="button"><span
+              class="visually-hidden">Next</span></button>
+        </div>
+      </div>
+    </section>
+    <section class="jury" id="jury">
+      <div class="container jury-container">
+        <div class="pagination">
+          <span class="current-page">03</span>/<span class="pages">05</span>
+        </div>
+        <p class="hashtag  section-hashtag">#bladefashion2019</p>
+        <h2 class="section-title">Судьи BFW`19</h2>
+        <div class="jury-slider">
+          <button class="jury-slider-btn jury-slider-btn-prev" type="button"><span
+              class="visually-hidden">Previous</span>
+          </button>
+          <ul class="jury-list">
+            <li class="jury-item">
+              <img src="img/judge_1.jpg" width="454" height="382" alt="Судья 1" class="jury-image">
+              <h3 class="jury-name">Давис Бертанс</h3>
+              <p class="jury-country">Литва</p>
+              <p class="jury-position">Владелец модного дома в Литве. Судья показов young blood Vilnus.</p>
+              <ul class="jury-socials">
+                <li class="jury-socials-item">
+                  <a class="socials-link" href="#">
+                    <span class="visually-hidden">Facebook</span>
+                    <img src="img/icon_fb.svg" alt="Facebook logo">
+                  </a>
+                </li>
+                <li class="jury-socials-item">
+                  <a class="socials-link" href="#">
+                    <span class="visually-hidden">Twitter</span>
+                    <img src="img/icon_twitter.svg" alt="Twitter logo">
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="jury-item">
+              <img src="img/judge_2.jpg" width="454" height="382" alt="Судья 2" class="jury-image">
+              <h3 class="jury-name">Георгий Рубильников</h3>
+              <p class="jury-country">Россия</p>
+              <p class="jury-position">Дизайнер, работающий с Gucci, владелец салона в Санкт-Петербурге.</p>
+              <ul class="jury-socials">
+                <li class="jury-socials-item">
+                  <a class="socials-link" href="#">
+                    <span class="visually-hidden">Instagram</span>
+                    <img src="img/icon_insta.svg" alt="Instagram logo">
+                  </a>
+                </li>
+                <li class="jury-socials-item">
+                  <a class="socials-link" href="#">
+                    <span class="visually-hidden">Facebook</span>
+                    <img src="img/icon_fb.svg" alt="Facebook logo">
+                  </a>
+                </li>
+                <li class="jury-socials-item">
+                  <a class="socials-link" href="#">
+                    <span class="visually-hidden">Twitter</span>
+                    <img src="img/icon_twitter.svg" alt="Twitter logo">
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="jury-item">
+              <img src="img/judge_3.jpg" width="454" height="382" alt="Судья 3" class="jury-image">
+              <h3 class="jury-name">Давид Гегенешвили</h3>
+              <p class="jury-country">Грузия</p>
+              <p class="jury-position">Создатель Georgia Runway Project. Главный судья на young blood Moscow.</p>
+              <ul class="jury-socials">
+                <li class="jury-socials-item">
+                  <a class="socials-link" href="#">
+                    <span class="visually-hidden">Instagram</span>
+                    <img src="img/icon_insta.svg" alt="Instagram logo">
+                  </a>
+                </li>
+                <li class="jury-socials-item">
+                  <a class="socials-link" href="#">
+                    <span class="visually-hidden">Facebook</span>
+                    <img src="img/icon_fb.svg" alt="Facebook logo">
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <button class="jury-slider-btn jury-slider-btn-next" type="button"><span
+              class="visually-hidden">Next</span></button>
+        </div>
+      </div>
+    </section>
+    <section class="tickets" id="tickets">
+      <div class="container tickets-container">
+        <div class="pagination">
+          <span class="current-page">04</span>/<span class="pages">05</span>
+        </div>
+        <p class="hashtag section-hashtag">#bladefashion2019</p>
+        <h2 class="section-title">Билеты</h2>
+        <div class="tickets-wrapper">
+          <div class="tickets-column">
+            <p>Вы можете приобрести билеты на Blade Fashion Week на нашем сайте: достаточно выбрать один из типов
+              билетов
+              (в
+              зависимости от предлагаемых опций) и произвести оплату онлайн. Мы принимаем оплату:</p>
+            <ul class="payments-list">
+              <li class="payments-item"><img class="payments-logo" src="img/visa_logo.png" alt=""></li>
+              <li class="payments-item"><img class="payments-logo" src="img/pay_logo.png" alt=""></li>
+              <li class="payments-item"><img class="payments-logo" src="img/mastercard_logo.png" alt=""></li>
+              <li class="payments-item"><img class="payments-logo" src="img/paypal_logo.png" alt=""></li>
+            </ul>
+            <p>По всем вопросам, связанным с покупкой, возвратом или предлагаемыми опциями, вы можете обратиться к
+              нашему
+              консультанту по номеру:</p>
+            <a href="tel:+79244567890">+7 (924) 456 78 90</a>
+          </div>
+          <table>
+            <thead>
+              <tr>
+                <th></th>
+                <th>Зритель</th>
+                <th>Оптимум</th>
+                <th>VIP</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Пакет гостя форума</td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Церемония открытия</td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Вход на показ</td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Возможность голосовать</td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Доступ за кулисы</td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Эксклюзив от кутюрье</td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td><a href="#contacts" class="btn tickets-btn">Купить</a></td>
+                <td><a href="#contacts" class="btn tickets-btn marked-btn">Купить</a></td>
+                <td><a href="#contacts" class="btn tickets-btn">Купить</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="main-footer" id="contacts">
+    <div class="container footer-container">
+      <div class="pagination">
+        <span class="current-page">05</span>/<span class="pages">05</span>
+      </div>
+      <p class="hashtag section-hashtag">#bladefashion2019</p>
+      <h2 class="section-title footer-title">Свяжитесь с нами</h2>
+      <div class="footer-wrapper">
+        <div class="footer-column">
+          <ul class="contacts-list">
+            <li class="contacts-item">
+              <h3>офис продаж</h3>
+              <address>363561, Москва ул. Пушкина 17/1</address>
+            </li>
+            <li class="contacts-item">
+              <h3>для связи</h3>
+              <a href="tel:+79244567890">+7 (924) 456 78 90</a>
+              <a href="mailto:bfw@gmail.com">bfw@gmail.com</a>
+            </li>
+            <li class="contacts-item">
+              <h3>подпишитесь</h3>
+              <ul class="contacts-socials">
+                <li class="contacts-socials-item">
+                  <a class="socials-link" href="">
+                    <span class="visually-hidden">Facebook</span>
+                    <img src="img/icon_fb.svg" width="10" height="19" alt="Facebook logo">
+                  </a>
+                </li>
+                <li class="contacts-socials-item">
+                  <a class="socials-link" href="">
+                    <span class="visually-hidden">Instagram</span>
+                    <img src="img/icon_insta.svg" width="18" height="18" alt="Instagram logo">
+                  </a>
+                </li>
+                <li class="contacts-socials-item">
+                  <a class="socials-link" href="">
+                    <span class="visually-hidden">Twitter</span>
+                    <img src="img/icon_twitter.svg" width="19" height="16" alt="Twitter logo">
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <picture>
+            <!-- <source srcset="img/footer_map.webp" type="image/webp"> -->
+            <img src="img/map.png" alt="Адрес Blade agency на карте" class="footer-map" width="810" height="462">
+          </picture>
+        </div>
+        <form class="feedback-form" method="post" action="/">
+          <p class="form-lead">Остались вопросы? Спросите нас! Мы ответим!</p>
+          <div class="form-group">
+            <label for="name" class="visually-hidden">имя</label>
+            <input type="text" id="name" name="name" placeholder="Введите имя" required>
+          </div>
+          <div class="form-group">
+            <label for="email" class="visually-hidden">email</label>
+            <input type="email" id="email" name="email" placeholder="Введите e-mail" required>
+          </div>
+          <div class="form-group">
+            <label for="message" class="visually-hidden">Сообщение</label>
+            <textarea id="message" name="message" placeholder="Ваше сообщение" required>Задайте любой вопрос</textarea>
+          </div>
+          <button type="submit" class="btn form-btn">Отправить</button>
+        </form>
+      </div>
     </div>
-    <form method="post" action="/">
-      <p class="form-lead">Остались вопросы? Спросите нас! Мы ответим!</p>
-      <div class="form-group">
-        <label for="name" class="visually-hidden">имя</label>
-        <input type="text" id="name" name="name" placeholder="Введите имя" required>
-      </div>
-      <div class="form-group">
-        <label for="email" class="visually-hidden">email</label>
-        <input type="email" id="email" name="email" placeholder="Введите e-mail" required>
-      </div>
-      <div class="form-group">
-        <label for="message" class="visually-hidden">Сообщение</label>
-        <textarea id="message" name="message" placeholder="Ваше сообщение" required>Задайте любой вопрос</textarea>
-      </div>
-      <button type="submit" class="btn form-btn">Отправить</button>
-    </form>
   </footer>
 </body>
 
