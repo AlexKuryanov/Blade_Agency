@@ -17,7 +17,7 @@ html {
   max-width: 1800px;
   margin: 0 auto;
   padding-left: 104px;
-  padding-right: 80px;
+  /* padding-right: 80px; */
   box-sizing: border-box;
 }
 
@@ -95,7 +95,6 @@ img {
   letter-spacing: 0.36px;
   text-decoration: none;
   text-transform: uppercase;
-  /* mix-blend-mode: difference; */
   position: relative;
   z-index: 3;
 }
@@ -159,7 +158,7 @@ img {
 
 .promo {
   position: relative;
-  padding-top: 200px;
+  padding-top: 145px;
   color: #fff;
   background-image: url(../img/promo_chars_bg.svg),
     linear-gradient(
@@ -184,19 +183,19 @@ img {
 
 .hashtag-promo {
   position: absolute;
-  top: 100px;
+  top: 133px;
   left: 104px;
-  margin-bottom: 40px;
 }
 
 .promo-column {
-  max-width: 965px;
-  padding-top: 150px;
+  flex-shrink: 0;
+  max-width: 920px;
+  padding-top: 190px;
 }
 
 .promo-title {
   margin-top: 0;
-  margin-bottom: 82px;
+  margin-bottom: 80px;
   font-family: "Playfair Display";
   font-size: 72px;
   font-weight: 900;
@@ -210,7 +209,7 @@ img {
   align-items: center;
   width: 843px;
   margin: 0;
-  margin-bottom: 122px;
+  margin-bottom: 120px;
   padding: 0;
   list-style: none;
   opacity: 0.74;
@@ -298,20 +297,23 @@ img {
 }
 
 .promo-image-wrapper {
-  display: block;
+  flex-shrink: 0;
   position: relative;
-  width: 866px;
-  margin-right: -132px;
+  width: 813px;
+  height: 855px;
   padding-top: 75px;
   overflow: hidden;
 }
 
 .promo-image-wrapper picture {
   display: block;
+  width: 100%;
+  height: 100%;
 }
 
 .promo-image {
-  box-shadow: 215px -17px 0 0 rgba(101, 78, 163, 0.87), 205px -27px 0 0 #f2c03f;
+  width: 100%;
+  box-shadow: 245px -17px 0 0 rgba(101, 78, 163, 0.87), 235px -27px 0 0 #f2c03f;
   object-fit: cover;
 }
 
@@ -349,9 +351,9 @@ img {
 }
 
 .pagination {
-  position: fixed;
-  top: 145px;
-  left: 40px;
+  position: absolute;
+  top: 0;
+  left: -12px;
   display: flex;
   justify-content: center;
   align-items: center;
