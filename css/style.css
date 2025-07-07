@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  scroll-margin-top: 100px;
 }
 
 .page-body {
@@ -15,6 +16,7 @@ html {
 
 .container {
   /* width: clamp(320px, 100%, 1800px); */
+  position: relative;
   max-width: 1800px;
   margin: 0 auto;
   padding-left: 104px;
@@ -416,6 +418,11 @@ img {
   background-color: rgba(255, 255, 255, 1);
 }
 
+.section-pagination::before {
+  background-color: #303030;
+  opacity: 0.5;
+}
+
 .pagination::after {
   content: "";
   position: absolute;
@@ -425,6 +432,11 @@ img {
   height: 373px;
   transform: translateX(-50%);
   background-color: rgba(255, 255, 255, 1);
+}
+
+.section-pagination::after {
+  background-color: #303030;
+  opacity: 0.5;
 }
 
 .current-page {
@@ -457,11 +469,13 @@ img {
 .members {
   position: relative;
   padding-top: 164px;
+  padding-bottom: 100px;
 }
 
 .section-hashtag {
-  top: 84px;
-  left: 320px;
+  /* top: 84px; */
+  top: -100px;
+  left: 283px;
   z-index: 2;
 }
 
